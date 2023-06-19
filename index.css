@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 300;
+    margin: 0;
 }
 
 .container {
@@ -53,4 +54,22 @@ a:hover {
 
 .written {
     font-size: 16px;
+}
+
+.sophie {
+    background-color: #D7D7D7;
+}
+
+.role {
+    background-color: #FFEAEA;
+}
+
+.article {
+    background-color: #EAF9FF;
+}
+
+.sophie,
+.role,
+.article {
+    padding: 100px 0;
 }
