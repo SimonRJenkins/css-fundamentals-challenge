@@ -80,3 +80,18 @@ a:hover {
 .mt {
     margin-top: 0;
 }
+
+.btn {
+    display: inline-block;
+    background-color: #99d930;
+    color: #252525;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #252525;
+    color: #FFF;
+}
