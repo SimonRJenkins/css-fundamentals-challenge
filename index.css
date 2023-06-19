@@ -11,14 +11,16 @@ body {
     margin: 0 auto;
 }
 
-.bold-text {
+.bold-text,
+.name,
+time {
     font-weight: 900;
     display: block;
+    color: #99d930;
 }
 
 h1 .bold-text {
     font-size: 80px;
-    color: #fff;
 }
 
 h2 .bold-text {
@@ -32,17 +34,19 @@ h2 {
 
 h1 {
     font-size: 60px;
+    color: #fff;
 }
 
 h2 {
     font-size: 42px;
+    color: #fff;
     margin-top: 0px;
     border-top: solid 1px #C4C4C4;
     border-bottom: solid 1px #C4C4C4;
     padding: 20px 0;
+
 }
 
-.article .bold-text,
 h3 {
     color: #FFF;
 }
@@ -66,6 +70,10 @@ a:hover {
     font-size: 16px;
 }
 
+.article {
+    color: #fff;
+}
+
 .sophie,
 .article {
     background-color: #252525;
@@ -75,6 +83,7 @@ a:hover {
 .role,
 .article {
     padding: 100px 0;
+
 }
 
 .mb {
@@ -98,4 +107,14 @@ a:hover {
 .btn:focus {
     background-color: #252525;
     color: #FFF;
+}
+
+article .btn:hover,
+.btn:focus {
+    background: #fff;
+    color: #252525;
+}
+
+.role .mt {
+    color: black;
 }
