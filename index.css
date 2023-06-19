@@ -48,6 +48,7 @@ h3 {
     font-weight: 900;
 }
 
+
 a {
     color: #99d930;
     font-weight: 900;
@@ -70,4 +71,12 @@ a:hover {
 .role,
 .article {
     padding: 100px 0;
+}
+
+.mb {
+    margin-bottom: 0;
+}
+
+.mt {
+    margin-top: 0;
 }
